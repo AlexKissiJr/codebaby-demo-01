@@ -71,7 +71,7 @@ function App() {
         setIsInitialized(true);
         handleHello();
       }}
-      id="EngagedMedia-Anthony">
+      id="EngagedMedia-Antoney">
         <div id="codebaby-container" className="w-full h-full"></div>
         <button id="avatar-button"></button>
     </AvatarProvider>
