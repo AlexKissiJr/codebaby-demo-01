@@ -54,7 +54,7 @@ function App() {
   const handleHello = useCallback(() =>  {
     if(aProviderRef.current) {
       console.log('Triggering playResponse')
-      //aProviderRef.current.trigger('playResponse', { answer: 'Hey! Just tap the screen to get started?' });
+      aProviderRef.current.trigger('playResponse', { answer: 'Hey! Just tap the screen to get started?' });
       aProviderRef.current.trigger('ask', { text: 'Hello' });
     }
   }, []);
@@ -71,7 +71,7 @@ function App() {
         setIsInitialized(true);
         handleHello();
       }}
-      id="react-avatar">
+      id="EngagedMedia-Antoney">
         <div id="codebaby-container" className="w-full h-full"></div>
         <button id="avatar-button"></button>
     </AvatarProvider>
