@@ -1,0 +1,12 @@
+button#avatar-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: 50;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Add any other global styles here */
